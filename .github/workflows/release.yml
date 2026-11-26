@@ -111,6 +111,9 @@ jobs:
         with:
           go-version: '1.27.0'
 
+      - name: Tidy Go modules
+        run: go mod tidy
+
       - name: Get project dependencies
         run: |
           go mod download
