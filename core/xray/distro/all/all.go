@@ -67,6 +67,4 @@ import (
 	_ "github.com/xtls/xray-core/transport/internet/headers/srtp"
 	_ "github.com/xtls/xray-core/transport/internet/headers/tls"
 	_ "github.com/xtls/xray-core/transport/internet/headers/utp"
-	_ "github.com/xtls/xray-core/transport/internet/headers/wechat"
-	_ "github.com/xtls/xray-core/transport/internet/headers/wireguard"
 )
