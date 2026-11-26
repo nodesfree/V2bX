@@ -61,10 +61,7 @@ import (
 	_ "github.com/xtls/xray-core/transport/internet/udp"
 	_ "github.com/xtls/xray-core/transport/internet/websocket"
 
-	// Transport headers
+	// Transport headers supported by the pinned upstream Xray-core version.
 	_ "github.com/xtls/xray-core/transport/internet/headers/http"
 	_ "github.com/xtls/xray-core/transport/internet/headers/noop"
-	_ "github.com/xtls/xray-core/transport/internet/headers/srtp"
-	_ "github.com/xtls/xray-core/transport/internet/headers/tls"
-	_ "github.com/xtls/xray-core/transport/internet/headers/utp"
 )
